@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.currency-converter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+}
+
+.converter-box {
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 300px;
+}
+
+.converter-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.converter-row input,
+.converter-row select {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  width: 60%;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+}
+
+.converter-row select {
+  width: 35%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #999;
+}
